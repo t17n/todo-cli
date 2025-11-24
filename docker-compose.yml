@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: todo-cli
+    container_name: todo-cli
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    command: sh
