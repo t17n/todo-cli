@@ -112,9 +112,9 @@ func main() {
 // 使用方法を表示する関数
 func printUsage() {
 	fmt.Println("使い方:")
-	fmt.Println("  add <タイトル>     - タスクを追加")
-	fmt.Println("  list              - タスク一覧を表示")
-	fmt.Println("  done <ID>         - タスクを完了")
-	fmt.Println("  delete <ID>       - タスクを削除")
-	fmt.Println("  clear             - すべてのタスクを削除")
+	fmt.Println("  ./todo add <タイトル>     - タスクを追加")
+	fmt.Println("  ./todo list              - タスク一覧を表示")
+	fmt.Println("  ./todo done <ID>         - タスクを完了")
+	fmt.Println("  ./todo delete <ID>       - タスクを削除")
+	fmt.Println("  ./todo clear             - すべてのタスクを削除")
 }
